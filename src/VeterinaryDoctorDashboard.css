@@ -1,0 +1,36 @@
+.sidebar {
+  background-color: rgb(31, 26, 58); /* Background color */
+  /* Sidebar width */
+  padding: 10px;
+  margin-top: -10px;
+  height:500px;
+  width: 200px; 
+}
+
+.sidebar h2 {
+  color: white /* Header font color */
+}
+
+.sidebar ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px; 
+  margin-top: 30px;
+}
+
+.sidebar ul li a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Link font color */
+  
+}
+
+.sidebar ul li a:hover {
+  color: white; 
+  background-color: red;
+  border-radius: 4px;
+}
+
+
